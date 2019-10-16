@@ -22,7 +22,7 @@ if __name__=='__main__':
         exit()
     connected = True
     while connected:
-        req = input ("> ").lower()
+        req = input ("> ")
         req_split = req.split()
         if req_split[0] == 'list':
             print(server.get_list_dir(req))
